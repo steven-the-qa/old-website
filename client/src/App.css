@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  width: 100%;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 42px;
+}

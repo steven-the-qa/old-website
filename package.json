@@ -4,7 +4,8 @@
   "description": "Latest iteration of Steven Boutcher's web developer portfolio, created July 26, 2020.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm && npm run build"
   },
   "keywords": [
     "steven",
@@ -26,5 +27,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
