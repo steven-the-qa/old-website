@@ -11,11 +11,10 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="Navbar">
-        
-        <Link to="/" className="home-button">
-            Home
+        <Link to="/" className="btn-about">
+            About
         </Link>
-        <Link to="/blog" className="blog-button">
+        <Link to="/blog" className="btn-blog">
             Blog
         </Link>
       </div>

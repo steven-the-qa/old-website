@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Helmet } from 'react-helmet'
 
 class Home extends React.Component {
     constructor() {
@@ -11,10 +12,13 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className="Home">
+            <div className="About">
+                <Helmet>
+                    <title>About Steven Boutcher</title>
+                </Helmet>
                 <Navbar />
                 <h1>Steven Boutcher</h1>
-                <h2>Full Stack Developer</h2>
+                <h3>Full Stack Developer</h3>
             </div>
         );
     }
