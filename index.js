@@ -6,7 +6,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/api/blog', (req, res) => {
     res.send({
-        blogTitle: 'Hello Blog'
+        blogTitle: 'Rounda-Boutch'
     })
 })
 

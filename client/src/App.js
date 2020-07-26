@@ -1,32 +1,24 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
+import Home from './Home'
+import Blog from './Blog'
 
 class App extends React.Component {
   constructor(){
     super()
     this.state = {
-      blogTitle: ''
     }
-    this.getBlogTitle = this.getBlogTitle.bind(this)
-  }
-
-  componentDidMount() {
-    this.getBlogTitle()
-  }
-
-  getBlogTitle() {
-    fetch('/api/blog')
-    .then(res => res.json())
-    .then(data => this.setState({
-      blogTitle: data.blogTitle
-    }))
   }
 
   render() {
     return (
-      <div className="App">
-        <h1>{this.state.blogTitle}</h1>
-      </div>
+        <Router>      
+          <Switch>          
+            <Route path="/blog" component={Blog} />
+            <Route path="/" component={Home} />
+          </Switch>
+        </Router>
     );
   }
 }
