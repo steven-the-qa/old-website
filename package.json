@@ -1,0 +1,30 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "description": "Latest iteration of Steven Boutcher's web developer portfolio, created July 26, 2020.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "steven",
+    "boutcher",
+    "web",
+    "developer",
+    "portfolio",
+    "projects",
+    "work",
+    "software",
+    "development",
+    "engineer",
+    "designer",
+    "app",
+    "application"
+  ],
+  "author": "Steven Boutcher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
