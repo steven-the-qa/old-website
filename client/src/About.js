@@ -14,7 +14,7 @@ class Home extends React.Component {
         return (
             <div className="About">
                 <Helmet>
-                    <title>About Steven Boutcher</title>
+                    <title>About Steven</title>
                 </Helmet>
                 <Navbar />
                 <h1>Steven Boutcher</h1>
