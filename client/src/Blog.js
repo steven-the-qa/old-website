@@ -26,11 +26,11 @@ class Blog extends React.Component {
         return (
             <div className="Blog">
                 <Helmet>
-                    <title>The Rounda-Boutch Way</title>
+                    <title>Life: In Development</title>
                 </Helmet>
                 <Navbar />
-                <h1>The Rounda-Boutch Way</h1>
-                <h3>Taking the road less traveled for the sake of expanding my horizons.</h3>
+                <h1>LIFE: IN DEVELOPMENT</h1>
+                <h3>“Curiosity is, in great and generous minds, the first passion and the last.” ―Samuel Johnson</h3>
             </div>
         );
     }
