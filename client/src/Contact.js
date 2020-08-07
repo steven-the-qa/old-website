@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { Helmet } from 'react-helmet'
 
-class About extends React.Component {
+class Contact extends React.Component {
     constructor() {
         super()
         this.state = {
@@ -12,18 +12,17 @@ class About extends React.Component {
 
     render() {
         return (
-            <div className="About">
+            <div className="Contact">
                 <Helmet>
-                    <title>About Steven</title>
+                    <title>Contact Steven</title>
                 </Helmet>
-                <Navbar currentPage="About" />
+                <Navbar currentPage="Contact" />
                 <div className='pageHeader'>
-                    <h1>STEVEN BOUTCHER</h1>
-                    <h3>Self-Taught Full Stack Developer</h3>
+                    <h1>CONTACT</h1>
                 </div>
             </div>
         );
     }
 }
 
-export default About
+export default Contact

@@ -28,9 +28,11 @@ class Blog extends React.Component {
                 <Helmet>
                     <title>Life: In Development</title>
                 </Helmet>
-                <Navbar />
-                <h1>LIFE: IN DEVELOPMENT</h1>
-                <h3>“Curiosity is, in great and generous minds, the first passion and the last.” ―Samuel Johnson</h3>
+                <Navbar currentPage="Blog" />
+                <div className='pageHeader'>
+                    <h1>LIFE: IN DEVELOPMENT</h1>
+                    <h3>“Curiosity is, in great and generous minds, the first passion and the last.” ―Samuel Johnson</h3>
+                </div>
             </div>
         );
     }
