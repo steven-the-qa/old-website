@@ -14,7 +14,7 @@ class About extends React.Component {
         return (
             <div className="About">
                 <Helmet>
-                    <title>About Steven</title>
+                    <title>About | Steven Boutcher</title>
                 </Helmet>
                 <Navbar currentPage="About" />
                 <div className='pageHeader'>

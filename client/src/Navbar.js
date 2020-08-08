@@ -22,17 +22,29 @@ class Navbar extends React.Component {
 
     return (
       <div className="Navbar">
-        <Link style={this.state.currentPage === 'About' ? currentPageStyles : normalPageStyles} to='/about' className='btn-about'>
+        <Link 
+          style={this.state.currentPage === 'About' ? currentPageStyles : normalPageStyles} 
+          to='/about' 
+          className='btn-about'>
           ABOUT
         </Link>
-        <Link style={this.state.currentPage === 'Projects' ? currentPageStyles : normalPageStyles} to='/projects' className='btn-projects'>
+        <Link 
+          style={this.state.currentPage === 'Projects' ? currentPageStyles : normalPageStyles} 
+          to='/projects' 
+          className='btn-projects'>
           PROJECTS
         </Link>
-        <Link style={this.state.currentPage === 'Contact' ? currentPageStyles : normalPageStyles} to='/contact' className='btn-contact'>
+        <Link 
+          style={this.state.currentPage === 'Contact' ? currentPageStyles : normalPageStyles} 
+          to='/contact' 
+          className='btn-contact'>
           CONTACT
         </Link>
-        {/*<Link style={this.props.currentPage === 'Blog' && currentPageStyles} to='/blog' className='btn-blog'>
-            BLOG
+        {/*<Link 
+          style={this.props.currentPage === 'Blog' && currentPageStyles} 
+          to='/blog' 
+          className='btn-blog'>
+          BLOG
         </Link>*/}
       </div>
     );

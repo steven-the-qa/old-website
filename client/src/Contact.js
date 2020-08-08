@@ -14,7 +14,7 @@ class Contact extends React.Component {
         return (
             <div className="Contact">
                 <Helmet>
-                    <title>Contact Steven</title>
+                    <title>Contact | Steven Boutcher</title>
                 </Helmet>
                 <Navbar currentPage="Contact" />
                 <div className='pageHeader'>

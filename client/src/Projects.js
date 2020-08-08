@@ -14,7 +14,7 @@ class Projects extends React.Component {
         return (
             <div className="Projects">
                 <Helmet>
-                    <title>Steven's Projects</title>
+                    <title>Projects | Steven Boutcher</title>
                 </Helmet>
                 <Navbar currentPage="Projects" />
                 <div className='pageHeader'>

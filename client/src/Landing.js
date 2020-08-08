@@ -14,7 +14,7 @@ class Landing extends React.Component {
         return (
             <Link to='/about' className='Landing'>
                     <Helmet>
-                        <title>Steven Boutcher</title>
+                        <title>Welcome! | Steven Boutcher</title>
                     </Helmet>
                     <h1>Hello :) My name is Steven. Welcome to my website!</h1>
                     <h3>Click anywhere to continue...</h3>
