@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Header from './Header'
 import { Helmet } from 'react-helmet'
 
 class Contact extends React.Component {
@@ -17,9 +18,7 @@ class Contact extends React.Component {
                     <title>Contact | Steven Boutcher</title>
                 </Helmet>
                 <Navbar currentPage="Contact" />
-                <div className='pageHeader'>
-                    <h1>CONTACT</h1>
-                </div>
+                <Header title="CONTACTS" />
             </div>
         );
     }
