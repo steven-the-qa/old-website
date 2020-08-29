@@ -5,8 +5,7 @@
 ///GENERAL///
 ///////////*/
 body {
-  max-width: 100%;
-  overflow-x: hidden;
+  width: 100vw;
 }
 
 a {
@@ -62,7 +61,6 @@ h1, h3 {
   justify-content: flex-start;
   align-items: center;
   background-color: var(--blue);
-  overflow-x: hidden;
 }
 
 /*/////////
