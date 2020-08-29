@@ -177,7 +177,7 @@ h1, h3 {
   display: block;
   width: 15vw;
   height: 15vw;
-  border-radius: 10vw;
+  border-radius: 15vw;
   margin: 2em 0;
   background-repeat: round;
   background-color: var(--blue);
