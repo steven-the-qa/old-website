@@ -11,7 +11,7 @@ class Navbar extends React.Component {
 
   render() {
     const currentPageStyles = {
-      'border-bottom': '1px solid #E5E5E5',
+      'border-bottom': '1px solid var(--lightgray)',
       'padding-bottom': '.1em'
     }
 
