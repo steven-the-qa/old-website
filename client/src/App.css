@@ -4,10 +4,9 @@
 /*///////////
 ///GENERAL///
 ///////////*/
-
-.App {
-  width: 100%;
-  margin: 0;
+body {
+  width: 100vw;
+  min-width: 640px;
 }
 
 a {
@@ -128,7 +127,6 @@ h1, h3 {
   margin: 0;
   background-color: var(--blue);
   color: var(--lightgray);
-  min-width: 640px;
 }
 
 .bio-pic {
@@ -209,3 +207,43 @@ h1, h3 {
 /*////////////////
 /////EDUCATION////
 ////////////////*/
+
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--blue);
+}
+
+.education-title {
+  margin: 1em 0;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  min-width: 550px;
+  min-height: 200px;
+  border-radius: 16px;
+  background-color: var(--darkgray);
+  margin: 1em 0;
+  font-weight: bold;
+}
+
+.education-degree {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1em;
+}
+
+.education-degree > p {
+  margin: 0;
+}

@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Bio from './Bio'
 import Hobbies from './Hobbies'
+import Education from './Education'
 
 
 class About extends React.Component {
@@ -25,6 +26,7 @@ class About extends React.Component {
                 <Header title="STEVEN BOUTCHER" subtitle="Self-Taught Full Stack Developer" />
                 <Bio />
                 <Hobbies />
+                <Education />
             </div>
         );
     }
