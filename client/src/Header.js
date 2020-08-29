@@ -12,7 +12,7 @@ export default function Header(props) {
     }, []);
 
     const breakpoint = 1200
-    const adjustBioPic = width < breakpoint ? { 'display': 'block' } : { 'display': 'none' }
+    const adjustBioPic = props.isAbout ? (width < breakpoint ? { 'display': 'block' } : { 'display': 'none' }) : { 'display': 'none' }
     
     return (
         <div className='header'>

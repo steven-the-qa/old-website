@@ -5,8 +5,8 @@
 ///GENERAL///
 ///////////*/
 body {
-  width: 100vw;
-  min-width: 640px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -154,6 +154,7 @@ h1, h3 {
   padding: 2em;
   margin: 2em 0;
   line-height: 140%;
+  min-width: 300px;
   max-width: 600px;
 }
 
@@ -228,7 +229,7 @@ h1, h3 {
   justify-content: center;
   align-items: center;
   width: 60%;
-  min-width: 550px;
+  min-width: 400px;
   min-height: 200px;
   border-radius: 16px;
   background-color: var(--darkgray);
