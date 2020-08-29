@@ -5,7 +5,7 @@ import Header from './Header'
 import Bio from './Bio'
 import Hobbies from './Hobbies'
 import Education from './Education'
-
+import CertificatesNav from './CertificatesNav'
 
 function About() {
 
@@ -19,6 +19,7 @@ function About() {
             <Bio />
             <Hobbies />
             <Education />
+            <CertificatesNav />
         </div>
     );
 }
