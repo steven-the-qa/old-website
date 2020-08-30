@@ -6,14 +6,8 @@ import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
 
-class App extends React.Component {
-  constructor(){
-    super()
-    this.state = {
-    }
-  }
+export default function App() {
 
-  render() {
     return (
         <Router>   
           <Switch>
@@ -24,7 +18,4 @@ class App extends React.Component {
           </Switch>
         </Router>
     );
-  }
 }
-
-export default App;

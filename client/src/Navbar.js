@@ -11,13 +11,13 @@ class Navbar extends React.Component {
 
   render() {
     const currentPageStyles = {
-      'border-bottom': '1px solid var(--lightgray)',
-      'padding-bottom': '.1em'
+      'borderBottom': '1px solid var(--lightgray)',
+      'paddingBottom': '.1em'
     }
 
     const normalPageStyles = {
-      'border-bottom': 'none',
-      'padding-bottom': '0'
+      'borderBottom': 'none',
+      'paddingBottom': '0'
     }
 
     return (
@@ -42,7 +42,9 @@ class Navbar extends React.Component {
         </Link>
         <a
           style={this.props.currentPage === 'Blog' ? currentPageStyles : normalPageStyles} 
-          href="https://blog.stevenboutcher.com" 
+          href="https://blog.stevenboutcher.com"
+          target="_blank"
+          rel="noopener noreferrer"
           className='btn-blog'>
           BLOG
         </a>

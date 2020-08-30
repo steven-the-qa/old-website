@@ -10,7 +10,7 @@ export default function CertificatesNav() {
     }, []);
 
     const breakpoint = 640
-    const adjustFont = width < breakpoint ? { 'font-size': '60%' } : { 'font-size': '100%' }
+    const adjustFont = width < breakpoint ? { 'fontSize': '60%' } : { 'fontSize': '100%' }
     return (
         <div className='certificatesNav'>
             <p id='freeCodeCamp' className='btn-cert' style={adjustFont}>freeCodeCamp</p>
