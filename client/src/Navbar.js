@@ -40,12 +40,12 @@ class Navbar extends React.Component {
           className='btn-contact'>
           CONTACT
         </Link>
-        {/*<Link 
-          style={this.props.currentPage === 'Blog' && currentPageStyles} 
+        <Link 
+          style={this.props.currentPage === 'Blog' ? currentPageStyles : normalPageStyles} 
           to='/blog' 
           className='btn-blog'>
           BLOG
-        </Link>*/}
+        </Link>
       </div>
     );
   }
