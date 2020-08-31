@@ -6,12 +6,12 @@
 ///////////*/
 
 html, body {
-  width: 100vw;
   margin: 0;
+  background-color: var(--blue);
 }
 
 .App {
-  width: 100%;
+  width: 100vw;
   margin: 0;
 }
 
