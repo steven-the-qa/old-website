@@ -268,7 +268,7 @@ h1, h3 {
   justify-content: space-evenly;
   align-items: stretch;
   width: 100%;
-  height: 10vh;
+  height: 20vh;
   background-color: var(--darkgray);
 }
 
@@ -286,4 +286,74 @@ h1, h3 {
 .btn-cert:hover, .btn-cert:focus {
   background-color: var(--lightgray);
   cursor: pointer;
+}
+
+/*////////////////////////////
+//////// CERTIFICATES ////////
+////////////////////////////*/
+
+.certificates {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.imageWindow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  background-color: var(--blue);
+  margin: 0;
+}
+
+.portfolioImage {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0;
+  padding: 1em;
+}
+
+.descriptionWindow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--lightgray);
+  margin: 0;
+}
+
+.descriptionBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+}
+
+@media (min-width: 800px) {
+
+  .certificates {
+    flex-direction: row;
+    max-height: 500px;
+  }
+
+  .imageWindow {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .portfolioImage {
+    max-width: 90%;
+  }
+
 }
