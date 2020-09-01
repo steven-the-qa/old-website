@@ -17,6 +17,7 @@ export default function CertificatesNav() {
             <p id='udemy' className='btn-cert' style={adjustFont}>Udemy</p>
             <p id='astqb' className='btn-cert' style={adjustFont}>ASTQB</p>
             <p id='scrimba' className='btn-cert' style={adjustFont}>Scrimba</p>
+            <p id='codeCademy' className='btn-cert' style={adjustFont}>CodeCademy</p>
         </div>
     )
 }

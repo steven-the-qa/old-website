@@ -3,22 +3,14 @@ import ImageWindow from './ImageWindow'
 import DescriptionWindow from './DescriptionWindow'
 import certificates from './certificates.json'
 
-class Certificates extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            data: certificates
-        }
-    }
+function Certificates() {
 
-    render() {
-        return(
-            <div className='certificates'>
-                <ImageWindow />
-                <DescriptionWindow />
-            </div>
-        )
-    }
+    return(
+        <div className='certificates'>
+            <ImageWindow certs = {certificates}/>
+            <DescriptionWindow certs = {certificates}/>
+        </div>
+    )
 }
 
 export default Certificates
