@@ -5,9 +5,8 @@ import Header from './Header'
 import Bio from './Bio'
 import Hobbies from './Hobbies'
 import Education from './Education'
+import Certificates from './Certificates'
 import CertificatesNav from './CertificatesNav'
-import ImageWindow from './ImageWindow'
-import DescriptionWindow from './DescriptionWindow'
 
 function About() {
 
@@ -22,10 +21,7 @@ function About() {
             <Hobbies />
             <Education />
             <CertificatesNav />
-            <div className='certificates'>
-                <ImageWindow />
-                <DescriptionWindow />
-            </div>
+            <Certificates />
         </div>
     );
 }

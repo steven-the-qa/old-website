@@ -1,0 +1,45 @@
+{
+    "freeCodeCamp": {
+        "rwd": {
+            "image": ""
+        },
+        "jsdsa": {
+            "image": ""
+        },
+        "fel": {
+            "image": ""
+        }
+    },
+    "udemy": {
+        "nodejs": {
+            "image": ""
+        },
+        "webdesign": {
+            "image": ""
+        },
+        "rspec": {
+            "image": ""
+        }
+    },
+    "astqb": {
+        "agiletester": {
+            "image": ""
+        }
+    },
+    "scrimba": {
+        "rwdbootcamp": {
+            "image": ""
+        },
+        "reactbootcamp": {
+            "image": ""
+        },
+        "jsbootcamp": {
+            "image": ""
+        }
+    },
+    "codecademy": {
+        "ruby": {
+            "image": ""
+        }
+    }
+}
