@@ -298,6 +298,11 @@ h1, h3 {
 //////// CERTIFICATES ////////
 ////////////////////////////*/
 
+.certificates-container {
+  margin: 0;
+  width: 100%;
+}
+
 .certificates {
   display: flex;
   flex-direction: column;
@@ -328,11 +333,15 @@ h1, h3 {
 .descriptionWindow {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   background-color: var(--lightgray);
   margin: 0;
+}
+
+.descriptionWindow > h2 {
+  text-align: center;
 }
 
 .descriptionBody {
@@ -360,6 +369,10 @@ h1, h3 {
 
   .portfolioImage {
     max-width: 90%;
+  }
+
+  .descriptionWindow {
+    overflow-y: scroll;
   }
 
 }
