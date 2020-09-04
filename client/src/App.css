@@ -41,7 +41,7 @@ h1, h3 {
 .Landing {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -50,12 +50,12 @@ h1, h3 {
   margin: 0;
 }
 
-.Landing > * {
-  height: 20%;
+.landingText {
+  min-height: 300px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 75%;
 }
 
 /*//////////////////////
