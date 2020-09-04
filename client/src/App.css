@@ -309,6 +309,7 @@ h1, h3 {
   flex-direction: column;
   width: 100%;
   margin: 0;
+  max-height: 1000px;
 }
 
 .imageWindow {
@@ -335,7 +336,6 @@ h1, h3 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  justify-items: space-evenly;
   align-items: center;
   width: 100%;
   background-color: var(--lightgray);
@@ -352,10 +352,14 @@ h1, h3 {
 .descriptionBody {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 80%;
-  padding-bottom: 1em;
+  max-height: 50%;
+  margin-bottom: 1em;
+  overflow-y: scroll;
+  background-color: var(--darkgray);
+  padding: 1em;
 }
 
 @media (min-width: 800px) {
@@ -379,6 +383,10 @@ h1, h3 {
 
   .descriptionWindow {
     overflow-y: scroll;
+  }
+
+  .descriptionBody {
+    max-height: 70%;
   }
 
 }
