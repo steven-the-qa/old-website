@@ -341,7 +341,6 @@ h1, h3 {
   background-color: var(--lightgray);
   margin: 0;
   max-height: 500px;
-  overflow-y: scroll;
 }
 
 .descriptionWindow > h2 {
@@ -379,10 +378,6 @@ h1, h3 {
 
   .portfolioImage {
     max-width: 90%;
-  }
-
-  .descriptionWindow {
-    overflow-y: scroll;
   }
 
   .descriptionBody {

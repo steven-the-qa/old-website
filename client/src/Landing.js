@@ -1,26 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 
-class Landing extends React.Component {
-    constructor() {
-        super()
-        this.state = {
+export default function Landing() {
 
-        }
-    }
-
-    render() {
         return (
             <Link to='/about' className='Landing'>
                     <Helmet>
                         <title>Welcome! | Steven Boutcher</title>
                     </Helmet>
-                    <h1>Hello :) My name is Steven. Welcome to my website!</h1>
-                    <h3>Click anywhere to continue...</h3>
+                    <Fragment>
+                        <h1>Hi, I'm Steven!</h1>
+                        <h2>Welcome to my website.</h2>
+                    </Fragment>
+                        <h3>Click anywhere to continue...</h3>
             </Link>
         );
-    }
 }
-
-export default Landing
