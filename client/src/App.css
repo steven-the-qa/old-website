@@ -29,9 +29,27 @@ h1, h3 {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
   letter-spacing: .05rem;
+
+  /* COLOR PALETTE */
   --darkgray: #C4C4C4;
   --lightgray: #E5E5E5;
   --blue: #7CF4E6;
+
+  /* HOBBIES */
+  --parkour: url('./parkour.svg');
+  --languages: url('./languages.svg');
+  --travel: url('./travel.svg');
+  --meditation: url('./meditation.svg');
+
+  /* PUBLIC PROFILES */
+  --github: url('./GitHub.svg');
+  --freecodecamp: url('./freeCodeCamp.svg');
+
+  /* PUBLICATIONS */
+  --setstate: url('./setStateArticle.JPG');
+
+  /* SIDE PROJECTS */
+  --medicareandmore: url('./medicareMore.JPG');
 }
 
 /*///////////////////
@@ -122,10 +140,18 @@ h1, h3 {
 }
 
 
-/*///////////////
-//////ABOUT/////
-///////////////*/
+/*---------------------------------------
 
+      ////////////////////////////////
+      //////////// ABOUT /////////////
+      ////////////////////////////////
+
+---------------------------------------*/
+
+
+/*///////////////
+////// BIO //////
+///////////////*/
 
 .bio {
   display: flex;
@@ -197,22 +223,41 @@ h1, h3 {
   max-height: 150px;
 }
 
-.parkour {
-  background-image: url('./parkour.svg');
-
+.hobby-pic:hover, .hobby-pic:focus {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.languageLearning {
-  background-image: url('./languageLearning.svg');
+.hobby-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50%;
+  font-weight: bold;
 }
 
-.travel {
-  background-image: url('./travel.svg');
+#parkour {
+  background-image: var(--parkour);
 }
 
-.meditation {
-  background-image: url('./meditation.svg');
+#languages {
+  background-image: var(--languages);
 }
+
+#travel {
+  background-image: var(--travel);
+}
+
+#meditation {
+  background-image: var(--meditation);
+}
+
+@media (min-width: 800px) {
+  .hobby-text {
+    font-size: 80%;
+  }
+}
+
 
 /*////////////////
 /////EDUCATION////
@@ -326,10 +371,15 @@ h1, h3 {
 
 .portfolioImage {
   display: block;
-  max-width: 90%;
+  width: 90%;
   height: auto;
   margin: 0;
   padding: 1em;
+}
+
+.portfolioImage:hover, .portfolioImage:focus {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .descriptionWindow {
@@ -384,4 +434,254 @@ h1, h3 {
     max-height: 70%;
   }
 
+}
+
+/*---------------------------------------
+
+      ///////////////////////////////
+      ////////// PROJECTS ///////////
+      ///////////////////////////////
+
+---------------------------------------*/
+
+
+/*//////////////////////////////////
+////////// PUBLIC PROFILES //////////
+//////////////////////////////////*/
+
+
+.publicProfiles {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: var(--darkgray);
+}
+
+.profileLink {
+  display: block;
+  width: 15.1vw;
+  height: 15vw;
+  border-radius: 15vw;
+  margin: 2em 0;
+  background-repeat: round;
+  background-color: white;
+  min-width: 75px;
+  min-height: 75px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.profileLink:hover, .profileLink:focus {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#github {
+  background-image: var(--github);
+}
+
+#freecodecamp {
+  background-image: var(--freecodecamp);
+}
+
+.profileLinkDiv {
+  display: none;
+}
+
+/*//////////////////////////////////
+/////////// PUBLICATIONS ///////////
+//////////////////////////////////*/
+
+.publications {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--blue);
+}
+
+.publications-title {
+  margin: 1em 0;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
+  min-height: 200px;
+  padding: 0 1em;
+  margin: 2em 0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.article:hover, .article:focus {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+#setstate {
+  background-image: var(--setstate), linear-gradient(-45deg, black, white);
+  background-color: var(--blue);
+  background-blend-mode: multiply;
+}
+
+/*///////////////////////////////////
+//////FREECODECAMP PROJECTS NAV//////
+///////////////////////////////////*/
+
+.fccProjectsNav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 100%;
+  height: 10vh;
+  min-height: 50px;
+  background-color: var(--darkgray);
+}
+
+.btn-proj {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkgray);
+  font-weight: bold;
+  text-decoration: underline;
+  width: 33%;
+  margin: 0;
+  text-align: center;
+}
+
+.btn-proj:hover, .btn-proj:focus {
+  background-color: var(--lightgray);
+  cursor: pointer;
+}
+
+@media (min-width: 640px) {
+  .fccProjectsNav {
+    height: 20vh;
+  }
+}
+
+/*///////////////////////////////////////////
+/////////// FREECODECAMP PROJECTS ///////////
+///////////////////////////////////////////*/
+
+.fccProjects-container {
+  margin: 0;
+  width: 100%;
+}
+
+.fccProjects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  max-height: 1000px;
+}
+
+.projectImage {
+  width: 7.5em;
+  height: 5em;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+  padding: 1em;
+}
+
+.projectImage:hover, .projectImage:focus {
+  transform: scale(1.1);
+}
+
+.projDescriptionBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+  max-height: 50%;
+  margin-bottom: 1em;
+  background-color: var(--darkgray);
+  padding: 1em;
+}
+
+.btn-repo {
+  width: 25%;
+  background-color: var(--blue);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em;
+}
+
+.btn-repo:hover, .btn-repo:focus {
+  transform: scale(1.1);
+}
+
+@media (min-width: 800px) {
+
+  .fccProjects {
+    flex-direction: row;
+    max-height: 500px;
+  }
+
+  .projectImage {
+    width: 15em;
+    height: 10em;
+  }
+
+  .projDescriptionBody {
+    max-height: 70%;
+  }
+
+}
+
+/*///////////////////////////////////
+/////////// SIDE PROJECTS ///////////
+///////////////////////////////////*/
+
+.sideProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--darkgray);
+}
+
+.sideProjects-title {
+  margin: 1em 0;
+}
+
+.sideProject {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  min-width: 400px;
+  min-height: 400px;
+  padding: 0 1em;
+  margin: 2em 0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sideProject:hover, .sideProject:focus {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+#medicareandmore {
+  background-image: var(--medicareandmore), linear-gradient(-45deg, black, white);
+  background-color: var(--blue);
+  background-blend-mode: multiply;
+  background-position: center;
 }

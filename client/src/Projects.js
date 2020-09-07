@@ -2,26 +2,24 @@ import React from 'react'
 import Navbar from './Navbar'
 import Header from './Header'
 import { Helmet } from 'react-helmet'
+import PublicProfiles from './PublicProfiles'
+import Publications from './Publications'
+import FCCProjects from './FCCProjects'
+import SideProjects from './SideProjects'
 
-class Projects extends React.Component {
-    constructor() {
-        super()
-        this.state = {
+export default function Projects() {
 
-        }
-    }
-
-    render() {
-        return (
-            <div className="Projects">
-                <Helmet>
-                    <title>Projects | Steven Boutcher</title>
-                </Helmet>
-                <Navbar currentPage="Projects" />
-                <Header title="PROJECTS" />
-            </div>
-        );
-    }
+    return (
+        <div className="Projects">
+            <Helmet>
+                <title>Projects | Steven Boutcher</title>
+            </Helmet>
+            <Navbar currentPage="Projects" />
+            <Header title="PROJECTS" />
+            <PublicProfiles />
+            <Publications />
+            <FCCProjects />
+            <SideProjects />
+        </div>
+    );
 }
-
-export default Projects

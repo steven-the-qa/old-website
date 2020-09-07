@@ -1,0 +1,14 @@
+{
+    "medicareandmore": {
+        "title": "Medicare & More Insurance Agency",
+        "description": "Built this website from scratch using React to replace my mom's VistaPrint website, which was costing her $35/month.",
+        "features": [
+            "$12/yr custom domain she can manage on Google Domains",
+            "Free form-to-email functionality using FormSpree",
+            "Custom Google Maps marker for her business, shown on the Contact page using React Google Maps (currently feature-toggled off)",
+            "Free hosting on GitHub Pages",
+            "Saved her business $34/month"
+        ],
+        "repo": "https://github.com/boutchersj/medicare-and-more"
+    }
+}
