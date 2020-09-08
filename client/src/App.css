@@ -500,6 +500,7 @@ h1, h3 {
   align-items: center;
   width: 100%;
   background-color: var(--blue);
+  margin: 2em 0;
 }
 
 .publications-title {
@@ -587,8 +588,8 @@ h1, h3 {
 }
 
 .projectImage {
-  width: 7.5em;
-  height: 5em;
+  min-width: 15em;
+  height: 10em;
   object-fit: cover;
   object-position: center;
   margin: 0;
@@ -618,6 +619,7 @@ h1, h3 {
   font-weight: bold;
   text-align: center;
   padding: 1em;
+  margin: .5em 0;
 }
 
 .btn-repo:hover, .btn-repo:focus {
@@ -632,8 +634,8 @@ h1, h3 {
   }
 
   .projectImage {
-    width: 15em;
-    height: 10em;
+    width: 20em;
+    min-height: 15em;
   }
 
   .projDescriptionBody {
@@ -649,9 +651,10 @@ h1, h3 {
 .sideProjects {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
+  padding: 2em 0;
   background-color: var(--darkgray);
 }
 
@@ -664,9 +667,8 @@ h1, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  min-width: 400px;
-  min-height: 400px;
+  width: 80%;
+  min-height: 15em;
   padding: 0 1em;
   margin: 2em 0;
   color: white;
@@ -679,9 +681,42 @@ h1, h3 {
   transform: scale(1.01);
 }
 
+.sideProject-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  min-height: 15em;
+  overflow-y: scroll;
+  padding: 0 1em;
+  margin: 2em 0;
+  font-size: 50%;
+}
+
+.sideProject-description > h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.sideProject-description:hover, .sideProject-description:focus {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
 #medicareandmore {
   background-image: var(--medicareandmore), linear-gradient(-45deg, black, white);
   background-color: var(--blue);
   background-blend-mode: multiply;
   background-position: center;
+}
+
+#medicareandmore-description {
+  background-color: var(--lightgray);
+}
+
+@media (min-width: 800px) {
+  .sideProject, .sideProject-description {
+    width: 50%;
+  }
 }
