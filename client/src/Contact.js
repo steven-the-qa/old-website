@@ -1,7 +1,8 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Navbar from './Navbar'
 import Header from './Header'
-import { Helmet } from 'react-helmet'
+import ContactForm from './ContactForm'
 
 class Contact extends React.Component {
     constructor() {
@@ -19,6 +20,7 @@ class Contact extends React.Component {
                 </Helmet>
                 <Navbar currentPage="Contact" />
                 <Header title="CONTACT" />
+                <ContactForm />
             </div>
         );
     }

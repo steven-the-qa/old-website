@@ -34,6 +34,7 @@ h1, h3 {
   --darkgray: #C4C4C4;
   --lightgray: #E5E5E5;
   --blue: #7CF4E6;
+  --lightgreen: #35E37B;
 
   /* HOBBIES */
   --parkour: url('./parkour.svg');
@@ -719,4 +720,96 @@ h1, h3 {
   .sideProject, .sideProject-description {
     width: 50%;
   }
+}
+
+
+/*---------------------------------------
+
+      ///////////////////////////////
+      /////////// CONTACT ///////////
+      ///////////////////////////////
+
+---------------------------------------*/
+
+
+/*//////////////////////////////////
+/////////// CONTACT FORM ///////////
+//////////////////////////////////*/
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--blue);
+  margin: 0;
+  padding: 2em 0;
+}
+
+.form-container {
+  width: 80%;
+}
+
+.form-title {
+  color: black;
+  text-align: center;
+}
+
+input, textarea {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--lightgray);
+  margin-bottom: 1em;
+  border: none;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+input:focus, textarea:focus {
+  background-color: var(--blue);
+}
+
+input::placeholder, textarea::placeholder {
+  font-weight: bold;
+  padding: 5px;
+}
+
+input {
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.input-message {
+  height: 6rem;
+  resize: none;
+  font-size: 1rem;
+}
+
+.btn-submit {
+  width: 100%;
+  margin: 0;
+  color: white;
+  background-color: var(--lightgreen);
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.25), inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn-submit:hover, .btn-submit:focus {
+  transform: scale(1.1);
+}
+
+@media (min-width: 850px) {
+
+  .form-container {
+    width: 50%;
+  }
+
 }
