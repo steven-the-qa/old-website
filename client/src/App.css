@@ -96,7 +96,7 @@ h1, h3 {
 
 .Navbar {
   width: 100%;
-  height: 10vh;
+  height: 5rem;
   background-color: black;
   display: flex;
   justify-content: space-evenly;
@@ -214,7 +214,7 @@ h1, h3 {
   width: 15vw;
   height: 15vw;
   border-radius: 15vw;
-  margin: 2em 0;
+  margin: 1em 0;
   background-repeat: round;
   background-color: var(--blue);
   min-width: 75px;
@@ -458,18 +458,23 @@ h1, h3 {
   background-color: var(--darkgray);
 }
 
-.profileLink {
-  display: block;
-  width: 15.1vw;
+.publicProfileDiv {
+  width: 15vw;
   height: 15vw;
-  border-radius: 15vw;
-  margin: 2em 0;
-  background-repeat: round;
-  background-color: white;
+  margin: 1em 0;
   min-width: 75px;
   min-height: 75px;
   max-width: 150px;
   max-height: 150px;
+}
+
+.profileLink {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-repeat: round;
+  background-color: white;
 }
 
 .profileLink:hover, .profileLink:focus {
@@ -513,8 +518,8 @@ h1, h3 {
   justify-content: center;
   align-items: center;
   width: 50%;
-  min-width: 400px;
-  min-height: 200px;
+  min-width: 15rem;
+  height: 15rem;
   padding: 0 1em;
   margin: 2em 0;
   color: white;
@@ -667,8 +672,9 @@ h1, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
-  min-height: 15em;
+  width: 50%;
+  min-width: 15rem;
+  min-height: 15rem;
   padding: 0 1em;
   margin: 2em 0;
   color: white;
@@ -684,14 +690,14 @@ h1, h3 {
 .sideProject-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
-  width: 70%;
-  min-height: 15em;
+  width: 50%;
+  min-width: 15rem;
+  height: 15rem;
   overflow-y: scroll;
   padding: 0 1em;
   margin: 2em 0;
-  font-size: 50%;
 }
 
 .sideProject-description > h2 {
