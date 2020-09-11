@@ -207,6 +207,7 @@ h1, h3 {
   align-items: center;
   width: 100%;
   background-color: var(--darkgray);
+  height: 20vw;
 }
 
 .hobby-pic {
@@ -217,10 +218,6 @@ h1, h3 {
   margin: 1em 0;
   background-repeat: round;
   background-color: var(--blue);
-  min-width: 75px;
-  min-height: 75px;
-  max-width: 150px;
-  max-height: 150px;
 }
 
 .hobby-pic:hover, .hobby-pic:focus {
@@ -230,10 +227,11 @@ h1, h3 {
 
 .hobby-text {
   display: flex;
+  margin: 1em 0;
   justify-content: center;
   align-items: center;
-  font-size: 50%;
   font-weight: bold;
+  font-size: 50%;
 }
 
 #parkour {
@@ -455,24 +453,16 @@ h1, h3 {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
+  height: 20vw;
   background-color: var(--darkgray);
-}
-
-.publicProfileDiv {
-  width: 15vw;
-  height: 15vw;
-  margin: 1em 0;
-  min-width: 75px;
-  min-height: 75px;
-  max-width: 150px;
-  max-height: 150px;
 }
 
 .profileLink {
   display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 15vw;
+  margin: 1em 0;
   background-repeat: round;
   background-color: white;
 }
