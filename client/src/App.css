@@ -220,8 +220,6 @@ h1, h3 {
   background-color: var(--blue);
   min-width: 75px;
   min-height: 75px;
-  max-width: 150px;
-  max-height: 150px;
 }
 
 .hobby-pic:hover, .hobby-pic:focus {
@@ -471,8 +469,6 @@ h1, h3 {
   background-color: white;
   min-width: 75px;
   min-height: 75px;
-  max-width: 150px;
-  max-height: 150px;
 }
 
 .profileLink:hover, .profileLink:focus {
