@@ -780,7 +780,7 @@ input::placeholder, textarea::placeholder {
 }
 
 textarea::placeholder {
-  padding: .25rem 0 0 .5rem;
+  padding: .5rem 0 0 .5rem;
 }
 
 input {
@@ -821,4 +821,7 @@ input {
     width: 50%;
   }
 
+  textarea::placeholder {
+    padding: .25rem 0 0 .5rem;
+  }
 }
