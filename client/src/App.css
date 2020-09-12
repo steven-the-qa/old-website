@@ -754,6 +754,7 @@ h1, h3 {
 .form-title {
   color: black;
   text-align: center;
+  width: 80%;
 }
 
 input, textarea {
@@ -775,7 +776,11 @@ input:focus, textarea:focus {
 
 input::placeholder, textarea::placeholder {
   font-weight: bold;
-  padding: 5px;
+  padding-left: .5rem;
+}
+
+textarea::placeholder {
+  padding: .25rem 0 0 .5rem;
 }
 
 input {
@@ -807,6 +812,10 @@ input {
 }
 
 @media (min-width: 850px) {
+
+  .form-title {
+    width: 50%;
+  }
 
   .form-container {
     width: 50%;
