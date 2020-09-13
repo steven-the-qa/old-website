@@ -52,7 +52,8 @@ export default function FCCProjects() {
                     <div className='projDescriptionBody'>
                         <strong>Description:</strong>
                         <p>{currentProj.description}</p>
-                        <a className='btn-repo' href={currentProj.repo} target="_blank" rel="noopener noreferrer">View Repo</a>
+                        <a className='btn-viewProj' href={currentProj.repo} target="_blank" rel="noopener noreferrer">View Repo</a>
+                        {currentProj.live && <a className='btn-viewProj' href={currentProj.live} target="_blank" rel="noopener noreferrer">View Live</a>}
                     </div>
                 </div>
             </div>
