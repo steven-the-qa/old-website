@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import Navbar from './Navbar'
 import Header from './Header'
 import ContactForm from './ContactForm'
+import SocialMedia from './SocialMedia'
 
 class Contact extends React.Component {
     constructor() {
@@ -21,6 +22,7 @@ class Contact extends React.Component {
                 <Navbar currentPage="Contact" />
                 <Header title="CONTACT" />
                 <ContactForm />
+                <SocialMedia />
             </div>
         );
     }
