@@ -538,6 +538,7 @@ h1, h3 {
   background-image: var(--setstate), linear-gradient(-45deg, black, white);
   background-color: var(--blue);
   background-blend-mode: multiply;
+  background-repeat: round;
 }
 
 /*///////////////////////////////////
