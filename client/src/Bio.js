@@ -28,7 +28,7 @@ export default function Bio() {
                 even if it’s just noticing UI bugs others may miss.
             </p>
             <p> 
-                My fiancée always been super supportive of all my coding efforts 
+                My fiancée has always been super supportive of all my coding efforts 
                 and is my greatest inspiration. When I'm not working or building stuff, 
                 I'm enjoying life with her and our pup!
             </p>
