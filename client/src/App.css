@@ -281,7 +281,10 @@ h1, h3 {
 }
 
 .education-title {
-  margin: 1em 0;
+    width: 100%;
+    padding: 2em 0;
+    color: white;
+    background-color: black;
 }
 
 .education-info {
@@ -314,6 +317,12 @@ h1, h3 {
 /*//////////////////////////
 //////CERTIFICATES NAV//////
 //////////////////////////*/
+
+.certificates-title {
+  padding: 2em 0;
+  color: white;
+  background-color: black;
+}
 
 .certificatesNav {
   display: flex;
@@ -538,6 +547,12 @@ h1, h3 {
 /*///////////////////////////////////
 //////FREECODECAMP PROJECTS NAV//////
 ///////////////////////////////////*/
+
+.fccProjects-title {
+  padding: 2em 0;
+  color: white;
+  background-color: black;
+}
 
 .fccProjectsNav {
   display: flex;

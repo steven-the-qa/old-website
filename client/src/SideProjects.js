@@ -27,8 +27,8 @@ export default function SideProjects() {
                 <p>{sideProjects.medicareandmore.description}</p>
                 <strong>Features:</strong>
                 <ul>{features}</ul>
-                <a className='btn-repo' href={sideProjects.medicareandmore.repo}>View Repo</a>
-                <a className='btn-repo' href={sideProjects.medicareandmore.live}>View Live</a>
+                <a className='btn-viewProj' href={sideProjects.medicareandmore.repo}>View Repo</a>
+                <a className='btn-viewProj' href={sideProjects.medicareandmore.live}>View Live</a>
             </div>
         )
     }

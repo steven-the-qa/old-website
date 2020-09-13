@@ -39,6 +39,7 @@ function Certificates() {
 
     return(
         <div className="certificates-container">
+            <h3 className="certificates-title">Learning Certificates</h3>
             <div className='certificatesNav'>
                 <p id='freeCodeCamp' onClick={handleCategory} className='btn-cert' style={adjustFont}>freeCodeCamp</p>
                 <p id='udemy' onClick={handleCategory} className='btn-cert' style={adjustFont}>Udemy</p>

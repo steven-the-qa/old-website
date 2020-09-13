@@ -3,7 +3,7 @@ import React from 'react'
 export default function Education() {
     return (
         <div className='education'>
-            <h3 className='education-title'>Education</h3>
+            <h3 className='education-title'>Bachelor's Degree</h3>
             <div className='education-info'>
                 <p>University of Wisconsin - Whitewater</p>
                 <div className='education-degree'>

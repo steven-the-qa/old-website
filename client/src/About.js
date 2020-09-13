@@ -6,6 +6,7 @@ import Bio from './Bio'
 import Hobbies from './Hobbies'
 import Education from './Education'
 import Certificates from './Certificates'
+import FCCProjects from './FCCProjects'
 
 function About() {
 
@@ -20,6 +21,7 @@ function About() {
             <Hobbies />
             <Education />
             <Certificates />
+            <FCCProjects />
         </div>
     );
 }

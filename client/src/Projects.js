@@ -4,7 +4,6 @@ import Header from './Header'
 import { Helmet } from 'react-helmet'
 import PublicProfiles from './PublicProfiles'
 import Publications from './Publications'
-import FCCProjects from './FCCProjects'
 import SideProjects from './SideProjects'
 
 export default function Projects() {
@@ -18,7 +17,6 @@ export default function Projects() {
             <Header title="PROJECTS" />
             <PublicProfiles />
             <Publications />
-            <FCCProjects />
             <SideProjects />
         </div>
     );

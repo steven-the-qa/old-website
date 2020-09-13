@@ -38,6 +38,7 @@ export default function FCCProjects() {
 
     return(
         <div className="fccProjects-container">
+            <h3 className="fccProjects-title">freeCodeCamp Learning Projects</h3>
             <div className='fccProjectsNav'>
                 <p id='rwd' onClick={handleCategory} className='btn-proj' style={adjustFont}>Responsive Web Design</p>
                 <p id='jsads' onClick={handleCategory} className='btn-proj' style={adjustFont}>JavaScript Data Structures & Algorithms</p>
