@@ -40,7 +40,7 @@ h1, h3 {
   --parkour: url('./parkour.svg');
   --languages: url('./languages.svg');
   --travel: url('./travel.svg');
-  --meditation: url('./meditation.svg');
+  --violin: url('./violin.svg');
 
   /* PUBLIC PROFILES */
   --github: url('./GitHub.svg');
@@ -255,8 +255,8 @@ h1, h3 {
   background-image: var(--travel);
 }
 
-#meditation {
-  background-image: var(--meditation);
+#violin {
+  background-image: var(--violin);
 }
 
 @media (min-width: 800px) {
