@@ -44,7 +44,7 @@ function Certificates() {
                 <p id='freeCodeCamp' onClick={handleCategory} className='btn-cert' style={adjustFont}>freeCodeCamp</p>
                 <p id='udemy' onClick={handleCategory} className='btn-cert' style={adjustFont}>Udemy</p>
                 <p id='astqb' onClick={handleCategory} className='btn-cert' style={adjustFont}>ASTQB</p>
-    {/*<p id='scrimba' onClick={handleCategory} className='btn-cert' style={adjustFont}>Scrimba</p>*/}
+                <p id='scrimba' onClick={handleCategory} className='btn-cert' style={adjustFont}>Scrimba</p>
                 <p id='codeCademy' onClick={handleCategory} className='btn-cert' style={adjustFont}>CodeCademy</p>
             </div>
             <div className='certificates'>
