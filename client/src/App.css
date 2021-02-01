@@ -726,6 +726,14 @@ h1, h3 {
   background-position: center;
 }
 
+#rubycalculator {
+  background-image: var(--rubycalculator), linear-gradient(-45deg, black, white);
+  background-color: var(--blue);
+  background-blend-mode: multiply;
+  background-position: left;
+  margin-top: 0;
+}
+
 #medicareandmore-description {
   background-color: var(--lightgray);
 }
