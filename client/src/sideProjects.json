@@ -10,6 +10,17 @@
             "Saved her business $34/month"
         ],
         "repo": "https://github.com/boutchersj/medicare-and-more",
-        "live": "https://medicaremoreagency.com/"
+        "live": "https://boutchersj.github.io/medicare-and-more"
+    },
+    "rubycalculator": {
+        "title": "Ruby Calculator",
+        "description": "I made this calculator to practice using Ruby and writing unit tests in RSpec",
+        "features": [
+            "Does + - / * as well as modulo and exponentiation",
+            "Each operation has its own method on the Calculator class",
+            "RSpec tests are written for each method"
+        ],
+        "repo": "https://github.com/boutchersj/ruby_calculator",
+        "live": ""
     }
 }
