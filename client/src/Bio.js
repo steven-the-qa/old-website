@@ -19,13 +19,17 @@ export default function Bio() {
         <div className='bio-description'>
             <h1>Hi! I'm Steven!</h1>
             <p>
-                I’ve spent 3 years learning full-stack JavaScript and responsive UI design in my spare time. 
+                I spent 3 years learning full-stack JavaScript and responsive UI design in my spare time. 
                 I studied Spanish Education in college thinking I was putting my language learning aptitude to the best use, 
                 but I’ve found myself much more excited by using programming languages to build cool web applications.
             </p>
             <p>
-                As a QA Analyst, I’m always looking for ways to use my web skills to benefit the team, 
-                even if it’s just noticing UI bugs others may miss.
+                I put this interest to good use as a QA Analyst, creating proprietary testing technology and using my bug-fixing 
+                experience to assess possible root causes of UI bugs found during testing.
+            </p>
+            <p>
+                As a Quality Automation Engineer, I'm learning how to apply my coding skills to the QA world, while still assisting 
+                with functional testing efforts in the anti-fraud area of the company.
             </p>
             <p> 
                 My fiancée has always been super supportive of all my coding efforts 
