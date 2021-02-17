@@ -1,5 +1,6 @@
 {
     "medicareandmore": {
+        "id": "medicareandmore",
         "title": "Medicare & More Insurance Agency",
         "description": "Built this website from scratch using React to replace my mom's VistaPrint website, which was costing her $35/month.",
         "features": [
@@ -13,6 +14,7 @@
         "live": "https://boutchersj.github.io/medicare-and-more"
     },
     "rubycalculator": {
+        "id": "rubycalculator",
         "title": "Ruby Calculator",
         "description": "I made this calculator to practice using Ruby and writing unit tests in RSpec",
         "features": [
