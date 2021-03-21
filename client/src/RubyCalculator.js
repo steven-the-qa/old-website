@@ -28,7 +28,6 @@ export default function SideProjects() {
                 <strong>Features:</strong>
                 <ul>{features}</ul>
                 <a className='btn-viewProj' href={sideProjects.rubycalculator.repo} target="_blank" rel="noopener noreferrer">View Repo</a>
-                <a className='btn-viewProj' href={sideProjects.rubycalculator.live} target="_blank" rel="noopener noreferrer">View Live</a>
             </div>
         )
     }
