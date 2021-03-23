@@ -36,10 +36,7 @@ export default function SideProject(props) {
     }
 
     return(
-        <div className='sideProjects'>
-            <h3 className='sideProjects-title'>Side Projects</h3>
-            {cardSide === 'front' ? <FrontSide /> : <ReverseSide />}
-        </div>
+        cardSide === 'front' ? <FrontSide /> : <ReverseSide />
     )
     
 }

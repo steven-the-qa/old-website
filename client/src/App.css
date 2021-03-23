@@ -707,6 +707,7 @@ h1, h3 {
   overflow-y: scroll;
   padding: 0 1em;
   margin: 2em 0;
+  background-color: var(--lightgray);
 }
 
 .sideProject-description > h2 {
@@ -731,11 +732,6 @@ h1, h3 {
   background-color: var(--blue);
   background-blend-mode: multiply;
   background-position: left;
-  margin-top: 0;
-}
-
-#medicareandmore-description {
-  background-color: var(--lightgray);
 }
 
 @media (min-width: 800px) {

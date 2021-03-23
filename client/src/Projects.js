@@ -4,8 +4,7 @@ import Header from './Header'
 import { Helmet } from 'react-helmet'
 import PublicProfiles from './PublicProfiles'
 import Publications from './Publications'
-import MedicareMore from './MedicareMore'
-import RubyCalculator from './RubyCalculator'
+import SideProjects from './SideProjects'
 
 export default function Projects() {
 
@@ -18,8 +17,7 @@ export default function Projects() {
             <Header title="PROJECTS" />
             <PublicProfiles />
             <Publications />
-            <MedicareMore />
-            <RubyCalculator />
+            <SideProjects />
         </div>
     );
 }

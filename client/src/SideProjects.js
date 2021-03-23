@@ -3,7 +3,8 @@ import SideProject from './SideProject'
 
 export default function SideProjects() {
     return(
-        <div>
+        <div className="sideProjects">
+            <h3 className='sideProjects-title'>Side Projects</h3>
             <SideProject projectId="medicareandmore" />
             <SideProject projectId="rubycalculator" />
         </div>
