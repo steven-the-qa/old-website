@@ -1,11 +1,11 @@
 {
     "medicareandmore": {
         "title": "Medicare & More Insurance Agency",
-        "description": "Built this website from scratch using React to replace my mom's VistaPrint website, which was costing her $35/month.",
+        "description": "Built this website from scratch using React to replace my mom's VistaPrint website, which was costing her $35/month. (Currently, this website is not being used because she has moved on from the business, so it is hosted at a free GitHub Pages domain for use in this portfolio.)",
         "features": [
-            "$12/yr custom domain she can manage on Google Domains",
+            "$12/yr custom domain she can manage on Google Domains (no longer in use)",
             "Free form-to-email functionality using FormSpree",
-            "Custom Google Maps marker for her business, shown on the Contact page using React Google Maps (currently feature-toggled off)",
+            "Custom Google Maps marker for her business, shown on the Contact page using React Google Maps",
             "Free hosting on GitHub Pages",
             "Saved her business $34/month"
         ],
@@ -14,11 +14,10 @@
     },
     "rubycalculator": {
         "title": "Ruby Calculator",
-        "description": "I made this calculator to practice using Ruby and writing unit tests in RSpec",
+        "description": "Created this as a way to practice Ruby and writing unit tests in RSpec",
         "features": [
-            "Does + - / * as well as modulo and exponentiation",
-            "Each operation has its own method on the Calculator class",
-            "RSpec tests are written for each method"
+            "Operations: Addition (+), Subtraction (-), Multiplication (*), Division (/), Modulo (%), Exponentiation (^)",
+            "Each operation is covered by a basic RSpec test"
         ],
         "repo": "https://github.com/boutchersj/ruby_calculator",
         "live": ""
