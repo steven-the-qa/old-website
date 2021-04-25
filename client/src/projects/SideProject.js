@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import projectData from './sideProjects.json'
+import projectData from '../data/sideProjects.json'
 
 export default function SideProject(props) {
     const [cardSide, setCardSide] = useState('front');

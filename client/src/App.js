@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
-import Landing from './Landing'
-import About from './About'
-import Projects from './Projects'
-import Contact from './Contact'
+import Landing from './landing/Landing'
+import About from './about/About'
+import Projects from './projects/Projects'
+import Contact from './contact/Contact'
 
 export default function App() {
 

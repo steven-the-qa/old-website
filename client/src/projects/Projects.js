@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Header from './Header'
+import Navbar from '../Navbar'
+import Header from '../Header'
 import { Helmet } from 'react-helmet'
 import PublicProfiles from './PublicProfiles'
 import Publications from './Publications'

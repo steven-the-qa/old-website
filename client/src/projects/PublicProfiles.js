@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Hobbies() {
+export default function PublicProfiles() {
 
     return (
         <div className='publicProfiles'>

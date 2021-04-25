@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import selfie from './selfie.jpg'
+import selfie from '../images/selfie.jpg'
 
 export default function Bio() {
     const [width, setWidth] = useState(window.innerWidth);

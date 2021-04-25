@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import fccProjects from './fccProjects.json'
+import fccProjects from '../data/fccProjects.json'
 
 export default function FCCProjects() {
 //Monitor Viewport Size

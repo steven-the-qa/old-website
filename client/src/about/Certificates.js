@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import certificates from './certificates.json'
+import certificates from '../data/certificates.json'
 
 function Certificates() {
 //Monitor Viewport Size

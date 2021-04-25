@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import selfie from './selfie.jpg'
+import selfie from './images/selfie.jpg'
 
 export default function Header(props) {
     const hasSubtitle = props.subtitle ? { 'display': 'block' } : { 'display': 'none' }
