@@ -28,7 +28,7 @@ function Certificates() {
 //Set Category Images
     let certImages = certificates[certCategory].map(cert => {
         return (
-            cert.title && <img id={cert.displayName} onClick={handleName} className="portfolioImage" src={`../images/${cert.title}.png`} alt={`${certCategory} - ${cert.displayName}`} />
+            <img id={cert.displayName} onClick={handleName} className="portfolioImage" src={require(`../images/certificates/${cert.title}.png`)} alt={`${certCategory} - ${cert.displayName}`} />
         )
     })
 //Set Current Certificate
