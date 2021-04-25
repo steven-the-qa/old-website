@@ -28,12 +28,12 @@ export default function FCCProjects() {
 //Set Category Images
     let projImages = fccProjects[projCategory].map(proj => {
         return (
-            proj.image && <img id={proj.title} onClick={handleName} className="projectImage" src={proj.image} alt={`${projCategory} - ${proj.title}`} />
+            <img id={proj.displayName} onClick={handleName} className="projectImage" src={require(`../images/fccprojects/${proj.title}.png`)} alt={`${projCategory} - ${proj.displayName}`} />
         )
     })
 //Set Current Certificate
-    const currentProj = fccProjects[projCategory].find(proj => proj.title === projName)
-        ? fccProjects[projCategory].find(proj => proj.title === projName)
+    const currentProj = fccProjects[projCategory].find(proj => proj.displayName === projName)
+        ? fccProjects[projCategory].find(proj => proj.displayName === projName)
         : fccProjects[projCategory][0]
 
     return(
@@ -49,7 +49,7 @@ export default function FCCProjects() {
                     {projImages}
                 </div>
                 <div className='descriptionWindow'>
-                    <h2>{currentProj.title}</h2>
+                    <h2>{currentProj.displayName}</h2>
                     <div className='projDescriptionBody'>
                         <strong>Description:</strong>
                         <p>{currentProj.description}</p>

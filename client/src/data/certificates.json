@@ -97,20 +97,6 @@
             "subtitle": "Building advanced layouts and deep-diving on the capabilities of CSS, Flexbox, and Grid",
             "summary": "The 17 hours of content in this course cover the following topics:",
             "bulletPoints": ["CSS Basics", "Specificity and selectors", "Text and fonts", "Flexbox layouts", "Design best practices", "Forms and how to make them look good", "CSS Grid layouts", "Transitions and animations", "Sane CSS defaults", "CSS best practices", "Units and responsive text", "Vertical aligning of content", "Media queries and viewports", "Advanced flexbox concepts", "Icons with Font Awesome", "Adding it all together"]
-        },
-        {
-            "title": "react_bootcamp",
-            "displayName": "React Bootcamp",
-            "subtitle": "",
-            "summary": "",
-            "bulletPoints": [""]
-        },
-        {
-            "title": "js_bootcamp",
-            "displayName": "JavaScript Bootcamp",
-            "subtitle": "",
-            "summary": "",
-            "bulletPoints": [""]
         }
     ],
     "codeCademy": [
