@@ -56,25 +56,25 @@ h1, h3 {
   --lightgreen: #35E37B;
 
   /* HOBBIES */
-  --parkour: url('./images/parkour.svg');
-  --languages: url('./images/languages.svg');
-  --travel: url('./images/travel.svg');
-  --violin: url('./images/violin.svg');
+  --parkour: url('images/hobbies/parkour.svg');
+  --languages: url('images/hobbies/languages.svg');
+  --travel: url('images/hobbies/travel.svg');
+  --violin: url('images/hobbies/violin.svg');
 
   /* PUBLIC PROFILES */
-  --github: url('./images/GitHub.svg');
-  --freecodecamp: url('./images/freeCodeCamp.svg');
+  --github: url('images/socials/GitHub.svg');
+  --freecodecamp: url('images/socials/freeCodeCamp.svg');
 
   /* PUBLICATIONS */
-  --setstate: url('./images/setStateArticle.JPG');
+  --setstate: url('images/sideprojects/setStateArticle.JPG');
 
   /* SIDE PROJECTS */
-  --medicareandmore: url('./images/medicareMore.JPG');
-  --rubycalculator: url('./images/rubyCalculator.jpeg');
+  --medicareandmore: url('images/sideprojects/medicareMore.JPG');
+  --rubycalculator: url('images/sideprojects/rubyCalculator.jpeg');
 
   /* SOCIAL MEDIA */
-  --linkedin: url('./images/LinkedIn.svg');
-  --twitter: url('./images/Twitter.svg');
+  --linkedin: url('images/socials/LinkedIn.svg');
+  --twitter: url('images/socials/Twitter.svg');
 }
 
 /*///////////////////

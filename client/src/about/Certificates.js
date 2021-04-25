@@ -28,12 +28,12 @@ function Certificates() {
 //Set Category Images
     let certImages = certificates[certCategory].map(cert => {
         return (
-            cert.image && <img id={cert.title} onClick={handleName} className="portfolioImage" src={cert.image} alt={`${certCategory} - ${cert.title}`} />
+            cert.title && <img id={cert.displayName} onClick={handleName} className="portfolioImage" src={`../images/${cert.title}.png`} alt={`${certCategory} - ${cert.displayName}`} />
         )
     })
 //Set Current Certificate
-    const currentCert = certificates[certCategory].find(cert => cert.title === certName)
-        ? certificates[certCategory].find(cert => cert.title === certName)
+    const currentCert = certificates[certCategory].find(cert => cert.displayName === certName)
+        ? certificates[certCategory].find(cert => cert.displayName === certName)
         : certificates[certCategory][0]
     const listItems = currentCert.bulletPoints.map( item => { return (<li>{item}</li>) })
 
@@ -52,7 +52,7 @@ function Certificates() {
                     {certImages}
                 </div>
                 <div className='descriptionWindow'>
-                    <h2>{currentCert.title}</h2>
+                    <h2>{currentCert.displayName}</h2>
                     <div className='descriptionBody'>
                         <p>{currentCert.subtitle}</p>
                         <p>{currentCert.summary}</p>
