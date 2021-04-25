@@ -14,13 +14,13 @@ function Certificates() {
     const breakpoint = 640
     const adjustFont = width < breakpoint ? { 'fontSize': '60%' } : { 'fontSize': '100%' }
 //Set Category
-    const [certCategory, setCertCategory] = useState("freeCodeCamp")
+    const [certCategory, setCertCategory] = useState("qaautomation")
     const handleCategory = event => {
         const { id } = event.target
         setCertCategory(id)
     }
 //Set Name
-    const [certName, setCertName] = useState("Front End Libraries")
+    const [certName, setCertName] = useState("Testing Ruby with RSpec: The Complete Guide")
     const handleName = event => {
         const { id } = event.target
         setCertName(id)
@@ -41,11 +41,9 @@ function Certificates() {
         <div className="certificates-container">
             <h3 className="certificates-title">Learning Certificates</h3>
             <div className='certificatesNav'>
-                <p id='freeCodeCamp' onClick={handleCategory} className='btn-cert' style={adjustFont}>freeCodeCamp</p>
-                <p id='udemy' onClick={handleCategory} className='btn-cert' style={adjustFont}>Udemy</p>
-                <p id='astqb' onClick={handleCategory} className='btn-cert' style={adjustFont}>ASTQB</p>
-                <p id='scrimba' onClick={handleCategory} className='btn-cert' style={adjustFont}>Scrimba</p>
-                <p id='codeCademy' onClick={handleCategory} className='btn-cert' style={adjustFont}>CodeCademy</p>
+                <p id='webdevelopment' onClick={handleCategory} className='btn-cert' style={adjustFont}>Web Development</p>
+                <p id='functionalqa' onClick={handleCategory} className='btn-cert' style={adjustFont}>Functional QA</p>
+                <p id='qaautomation' onClick={handleCategory} className='btn-cert' style={adjustFont}>QA Automation</p>
             </div>
             <div className='certificates'>
                 <div className='imageWindow'>
