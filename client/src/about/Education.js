@@ -11,6 +11,7 @@ export default function Education() {
                     <p>3.663 GPA</p>
                 </div>
             </div>
+            <img class='degree-image' src={require('../images/bse_spanish_ed.png')} alt='bachelors degree original diploma' />
         </div>
     )
 }
