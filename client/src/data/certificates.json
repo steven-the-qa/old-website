@@ -79,6 +79,23 @@
                 "Different implementations of Agile",
                 "Agile as it relates to software testing"
             ]
+        },
+        {
+            "title": "sql_for_testers",
+            "displayName": "SQL for Testers",
+            "subtitle": "Introductory SQL knowledge for use in functional QA",
+            "summary": "This course covered the following SQL topics:",
+            "bulletPoints": [
+                "Data validation",
+                "Data generation",
+                "Creating queries",
+                "CRUD operations",
+                "Transactions",
+                "Field Constraints",
+                "Schema validation",
+                "Security testing basics",
+                "Performance testing basics"
+            ]
         }
     ],
     "qaautomation": [
