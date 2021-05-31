@@ -29,10 +29,10 @@
         "title": "Birthday Card Sharing Recipient Generator",
         "description": "Created this to automate some of the tedium associated with sending out team-signed birthday cards",
         "features": [
-            "Editable JSON file for adding your team members' name/email/birthday",
+            "CSV file upload for adding your team's names/emails/birthdays",
             "Dynamically update recipients list",
             "Exclude the birthday person from the recipients list",
-            "Keep track of all your team's birthdays"
+            "Keep track of name/birthday and name/email relationships"
         ],
         "repo": "https://github.com/boutchersj/bday_card_sharing_recipients",
         "live": "https://boutchersj.github.io/bday_card_sharing_recipients/"
