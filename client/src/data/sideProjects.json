@@ -24,17 +24,16 @@
         "repo": "https://github.com/boutchersj/ruby_calculator",
         "live": ""
     },
-    "bdaycardrecipgenerator": {
-        "id": "bdaycardrecipgenerator",
-        "title": "Birthday Card Sharing Recipient Generator",
+    "birthdayassistant": {
+        "id": "birthdayassistant",
+        "title": "Birthday Assistant",
         "description": "Created this to automate some of the tedium associated with sending out team-signed birthday cards",
         "features": [
             "CSV file upload for adding your team's names/emails/birthdays",
-            "Dynamically update recipients list",
-            "Exclude the birthday person from the recipients list",
+            "Dynamically update recipients list to filter out the birthday person",
             "Keep track of name/birthday and name/email relationships"
         ],
-        "repo": "https://github.com/boutchersj/bday_card_sharing_recipients",
-        "live": "https://boutchersj.github.io/bday_card_sharing_recipients/"
+        "repo": "https://github.com/boutchersj/birthday_assistant",
+        "live": "https://boutchersj.github.io/birthday_assistant/"
     }
 }
