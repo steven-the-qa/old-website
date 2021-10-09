@@ -122,6 +122,23 @@
                 "Mocking objects with class and instance doubles to reduce dependencies in a test suite",
                 "Exploring the wide array of RSpec matchers available for use"
             ]
+        },
+        {
+            "title": "python_for_beginners",
+            "displayName": "Python for Beginners: Learn Python Programming (Python 3)",
+            "subtitle": "A survey of Python 3 capabilities & syntax",
+            "summary": "This course covers the following:",
+            "bulletPoints": [
+                "Strings and Variables",
+                "Numbers and Math",
+                "Booleans and Conditionals",
+                "Functions",
+                "Lists",
+                "Dictionaries",
+                "Tuples",
+                "Files",
+                "Modules"
+            ]
         }
     ]
 }
