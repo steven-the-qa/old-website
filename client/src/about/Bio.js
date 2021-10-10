@@ -24,17 +24,23 @@ export default function Bio() {
                 but I’ve found myself much more excited by using programming languages to build cool web applications.
             </p>
             <p>
-                I put this interest to good use as a QA Analyst, creating proprietary testing technology and using my bug-fixing 
+                I put this interest to good use as a Functional QA Analyst, creating proprietary testing technology and using my bug-fixing 
                 experience to assess possible root causes of UI bugs found during testing.
             </p>
             <p>
-                As a Quality Automation Engineer, I'm learning how to apply my coding skills to the QA world, while still assisting 
-                with functional testing efforts in the anti-fraud area of the company.
+                Then, as a Quality Automation Engineer, I learned how to apply my coding skills to the QA world, while still assisting 
+                with functional testing efforts in the anti-fraud area of the company. I began learning Ruby, RSpec, Python, and Pytest as 
+                tools to help me accomplish these goals.
+            </p>
+            <p>
+                As an SDET, I'm learning how to collaborate effectively with other developers and support functional QA with my work. 
+                My role is now devoted 100% to developing tests for the mobile app and back-end services.
             </p>
             <p> 
                 My fiancée has always been super supportive of all my coding efforts 
                 and is my greatest inspiration. When I'm not working or building stuff, 
-                I'm enjoying life with her and our pup!
+                I'm enjoying life with her and our pup! In fact, I plan to start enjoying the rest of my 
+                life with her once we get married on October 30, 2021!
             </p>
         </div>
     </div>
