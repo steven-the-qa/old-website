@@ -5,7 +5,7 @@ export default function Resume() {
     return(
         <div className="resume">
             <div className="resume-container">
-                <h2>...download my resume...</h2>
+                <h2>Check out my resume!</h2>
                 <a className="resume-link" href={resume} download>
                     <i className="fa fa-download"></i> Download
                 </a>
