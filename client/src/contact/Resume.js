@@ -6,9 +6,11 @@ export default function Resume() {
         <div className="resume">
             <div className="resume-container">
                 <h2>Check out my resume!</h2>
-                <a className="resume-link" href={resume} download>
-                    <i className="fa fa-download"></i> Download
-                </a>
+                <div className='resume-link-container'>
+                    <a className="resume-link" href={resume} download>
+                        <i className="fa fa-download"></i> Download
+                    </a>
+                </div>
             </div>
         </div>
     )
