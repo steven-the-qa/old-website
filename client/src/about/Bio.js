@@ -34,13 +34,13 @@ export default function Bio() {
             </p>
             <p>
                 As an SDET, I'm learning how to collaborate effectively with other developers and support functional QA with my work. 
-                My role is now devoted 100% to developing tests for the mobile app and back-end services.
+                My role is now devoted 100% to developing tests for the mobile app and back-end services. I also co-lead an apprenticeship 
+                program to help aspiring SDETs learn the test automation craft.
             </p>
             <p> 
-                My fiancée has always been super supportive of all my coding efforts 
-                and is my greatest inspiration. When I'm not working or building stuff, 
-                I'm enjoying life with her and our pup! In fact, I plan to start enjoying the rest of my 
-                life with her once we get married on October 30, 2021!
+                I married the love of my life, Sam Martylewski, on October 30, 2021, after almost 4 years together! 
+                My wife has always been super supportive of all my coding efforts and is my greatest inspiration. 
+                When I'm not working, I'm enjoying life with her and our cat, Minnie!
             </p>
         </div>
     </div>
