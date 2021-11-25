@@ -1,35 +1,38 @@
 {
-  "name": "dev-portfolio",
-  "version": "1.0.0",
-  "description": "Latest iteration of Steven Boutcher's web developer portfolio, created July 26, 2020.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
-  },
-  "keywords": [
-    "steven",
-    "boutcher",
-    "web",
-    "developer",
-    "portfolio",
-    "projects",
-    "work",
-    "software",
-    "development",
-    "engineer",
-    "designer",
-    "app",
-    "application"
-  ],
-  "author": "Steven Boutcher",
-  "license": "ISC",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7",
-    "react-router-dom": "^5.2.0"
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "confetti-js": "0.0.18",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "3.4.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
