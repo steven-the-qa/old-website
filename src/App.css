@@ -851,7 +851,9 @@ input {
   font-size: 1rem;
 }
 
-.btn-submit {
+#submit {
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 0;
   color: white;
@@ -865,7 +867,7 @@ input {
   border-radius: 5px;
 }
 
-.btn-submit:hover, .btn-submit:focus {
+#submit:hover, #submit:focus {
   transform: scale(1.1);
 }
 
