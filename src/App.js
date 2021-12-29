@@ -11,10 +11,10 @@ export default function App() {
     return (
         <Router>   
           <Routes>
+            <Route exact path='/' element={<Landing />} />
             <Route path="/about" element={<About />} />
             <Route path='/projects' element={<Projects />} />
             <Route path='/contact' element={<Contact />} />
-            <Route path='/' element={<Landing />} />
           </Routes>
         </Router>
     );
