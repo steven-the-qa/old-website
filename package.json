@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://www.stevenboutcher.com",
+  "homepage": "https://stevenboutcher.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "confetti-js": "0.0.18",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
@@ -21,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -b source-code -d build"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {
