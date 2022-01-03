@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc6408143ce970622f15971eb38b3dbc",
+    "revision": "0ece32c9b3d3d5e129a7002e0f5ff9f9",
     "url": "/index.html"
   },
   {
-    "revision": "7f76e7c761227fadb13d",
-    "url": "/static/css/main.ca49c062.chunk.css"
+    "revision": "d3dd63387076e21289ca",
+    "url": "/static/css/main.1386a4b5.chunk.css"
   },
   {
     "revision": "1301c68a730470e55db8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.62e70082.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f76e7c761227fadb13d",
-    "url": "/static/js/main.0e4f5818.chunk.js"
+    "revision": "d3dd63387076e21289ca",
+    "url": "/static/js/main.9d6649d1.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/astqb_agile_tester.63409b9d.png"
   },
   {
-    "revision": "014716d48a79e6caaa75417334326810",
-    "url": "/static/media/birthdayassistant.014716d4.png"
+    "revision": "e54ca30e6042cd54325e01bfe477b8b4",
+    "url": "/static/media/birthdayhelper.e54ca30e.png"
   },
   {
     "revision": "7b7a7cb39d6306d0f1df44b512be5655",
