@@ -24,16 +24,16 @@
         "repo": "https://github.com/boutchersj/ruby_calculator",
         "live": ""
     },
-    "birthdayassistant": {
-        "id": "birthdayassistant",
-        "title": "Birthday Assistant",
-        "description": "Created this to automate some of the tedium associated with sending out team-signed birthday cards",
+    "birthdayhelper": {
+        "id": "birthdayhelper",
+        "title": "Birthday Helper",
+        "description": "Created this to automate some of the tedium associated with sending out team-signed birthday and work anniversary cards",
         "features": [
-            "CSV file upload for adding your team's names/emails/birthdays",
-            "Dynamically update recipients list to filter out the birthday person",
-            "Keep track of name/birthday and name/email relationships"
+            "CSV file upload for adding your team's names/emails/birthdays/work anniversaries",
+            "EmailJS integration for creating a templated email (requires a free account & EmailJS template setup)",
+            "Use any website to create your eCard, but use this app to send it out to your team!"
         ],
-        "repo": "https://github.com/boutchersj/birthday_assistant",
-        "live": "https://boutchersj.github.io/birthday_assistant/"
+        "repo": "https://github.com/boutchersj/birthday_helper",
+        "live": "https://boutchersj.github.io/birthday_helper/"
     }
 }

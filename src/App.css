@@ -71,7 +71,7 @@ h1, h3 {
   /* SIDE PROJECTS */
   --medicareandmore: url('images/sideprojects/medicareMore.JPG');
   --rubycalculator: url('images/sideprojects/rubyCalculator.jpeg');
-  --birthdayassistant: url('images/sideprojects/birthdayassistant.png');
+  --birthdayhelper: url('images/sideprojects/birthdayhelper.png');
 
   /* SOCIAL MEDIA */
   --linkedin: url('images/socials/LinkedIn.svg');
@@ -769,11 +769,11 @@ h1, h3 {
   background-position: left;
 }
 
-#birthdayassistant {
-  background-image: var(--birthdayassistant), linear-gradient(-45deg, black, white);
+#birthdayhelper {
+  background-image: var(--birthdayhelper), linear-gradient(-45deg, black, white);
   background-color: var(--blue);
   background-blend-mode: multiply;
-  background-position: right;
+  background-position: bottom;
 }
 @media (min-width: 800px) {
   .sideProject, .sideProject-description {

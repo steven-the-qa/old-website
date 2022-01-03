@@ -7,7 +7,7 @@ export default function SideProjects() {
             <h3 className='sideProjects-title'>Side Projects</h3>
             <SideProject projectId="medicareandmore" />
             <SideProject projectId="rubycalculator" />
-            <SideProject projectId="birthdayassistant" />
+            <SideProject projectId="birthdayhelper" />
         </div>
     )
 }
