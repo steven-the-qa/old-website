@@ -16,7 +16,7 @@ function About() {
                 <title>About | Steven Boutcher</title>
             </Helmet>
             <Navbar currentPage="About" />
-            <Header title="STEVEN BOUTCHER" subtitle="Human | SDET | FE Engineer" isAbout={true}/>
+            <Header title="STEVEN BOUTCHER" subtitle="Human | SDET | FE Engineer, Apprentice" isAbout={true}/>
             <Bio />
             <Hobbies />
             <Education />
