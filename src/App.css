@@ -209,7 +209,7 @@ h1, h3 {
 .bio-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   background-color: var(--darkgray);
   color: black;
@@ -220,6 +220,8 @@ h1, h3 {
   line-height: 140%;
   min-width: 300px;
   max-width: 600px;
+  height: 400px;
+  overflow-y: scroll;
 }
 
 .bio-description > h1 {
