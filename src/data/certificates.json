@@ -1,0 +1,144 @@
+{
+    "webdevelopment": [
+        {
+            "title": "responsive_web_design",
+            "displayName": "Responsive Web Design",
+            "subtitle": "Completion of 5 responsive HTML & CSS projects",
+            "summary": "Each project is judged by its own suite of unit tests provided by freeCodeCamp:",
+            "bulletPoints": ["Tribute Page", "Survey Form", "Product Landing", "Documentation Page", "Portfolio Page"]
+        },
+        {
+            "title": "javascript_algorithms_and_data_structures",
+            "displayName": "JavaScript Algorithms and Data Structures",
+            "subtitle": "Completion of 5 JavaScript algorithm challenges",
+            "summary": "Each project is judged by its own suite of unit tests provided by freeCodeCamp:",
+            "bulletPoints": ["Caesar's Cipher", "Cash Register", "Palindrome Checker", "Roman Numeral Converter", "Telephone Number Validator"]
+        },
+        {
+            "title": "front_end_libraries",
+            "displayName": "Front End Libraries",
+            "subtitle": "Completion of 5 React projects.",
+            "summary": "Each project is judged by its own suite of unit tests provided by freeCodeCamp:",
+            "bulletPoints": [
+                "Random Quote Generator",
+                "Markdown Previewer",
+                "DrumMachine",
+                "JavaScript Calculator",
+                "Pomodoro Clock"
+            ]
+        },
+        {
+            "title": "nodejs",
+            "displayName": "Node.js: The Complete Guide to Build RESTful APIs (2018)",
+            "subtitle": "Build a movie rental API",
+            "summary": "This course covered the following topics (taken from the course description):",
+            "bulletPoints": [
+                "Node module system", 
+                "Node Package Manager (NPM)",
+                "Asynchronous JavaScript",
+                "Useful ES6+ features",
+                "Implementing CRUD operations",
+                "Storing complex data in MongoDB",
+                "Data Validation",
+                "Authentication and authorization",
+                "Handling and logging errors the right way",
+                "Unit and integration testing",
+                "Test-driven development (TDD)",
+                "Deployment"
+            ]
+        },
+        {
+            "title": "web_design",
+            "displayName": "Web Design for Web Developers: Build Beautiful Websites!",
+            "subtitle": "Primer on web design concepts and strategies",
+            "summary": "Some aspects of web design covered by this course:",
+            "bulletPoints": [
+                "Typography",
+                "Color theory",
+                "Whitespace in a layout",
+                "Visual hierarchy"
+            ]
+        },
+        {
+            "title": "rwd_bootcamp",
+            "displayName": "Responsive Web Design Bootcamp",
+            "subtitle": "Building advanced layouts and deep-diving on the capabilities of CSS, Flexbox, and Grid",
+            "summary": "The 17 hours of content in this course cover the following topics:",
+            "bulletPoints": ["CSS Basics", "Specificity and selectors", "Text and fonts", "Flexbox layouts", "Design best practices", "Forms and how to make them look good", "CSS Grid layouts", "Transitions and animations", "Sane CSS defaults", "CSS best practices", "Units and responsive text", "Vertical aligning of content", "Media queries and viewports", "Advanced flexbox concepts", "Icons with Font Awesome", "Adding it all together"]
+        }
+    ],
+    "functionalqa": [
+        {
+            "title": "astqb_agile_tester",
+            "displayName": "Agile Tester",
+            "subtitle": "Foundation-level industry certification",
+            "summary": "This certification represents knowledge of the following:",
+            "bulletPoints": [
+                "Agile concepts",
+                "Communication on an Agile software team",
+                "Different implementations of Agile",
+                "Agile as it relates to software testing"
+            ]
+        },
+        {
+            "title": "sql_for_testers",
+            "displayName": "SQL for Testers",
+            "subtitle": "Introductory SQL knowledge for use in functional QA",
+            "summary": "This course covered the following SQL topics:",
+            "bulletPoints": [
+                "Data validation",
+                "Data generation",
+                "Creating queries",
+                "CRUD operations",
+                "Transactions",
+                "Field Constraints",
+                "Schema validation",
+                "Security testing basics",
+                "Performance testing basics"
+            ]
+        }
+    ],
+    "qaautomation": [
+        {
+            "title": "learn_ruby",
+            "displayName": "Learn Ruby",
+            "subtitle": "An introduction to Ruby with practice projects",
+            "summary": "The following are covered in this course:",
+            "bulletPoints": [
+                "What is Ruby?",
+                "Ruby syntax",
+                "Object-Oriented Programming",
+                "Blocks, Procs, Lambdas, Symbols, Hashes"
+            ]
+        },
+        {
+            "title": "rspec",
+            "displayName": "Testing Ruby with RSpec: The Complete Guide",
+            "subtitle": "Using the RSpec testing framework",
+            "summary": "This course covers the following topics:",
+            "bulletPoints": [
+                "Test-driven development principles to design and implement clean test specs in Ruby", 
+                "Syntax and structure of RSpec, the most popular Ruby Gem for testing",
+                "Mocking objects with class and instance doubles to reduce dependencies in a test suite",
+                "Exploring the wide array of RSpec matchers available for use"
+            ]
+        },
+        {
+            "title": "python_for_beginners",
+            "displayName": "Python for Beginners: Learn Python Programming (Python 3)",
+            "subtitle": "A survey of Python 3 capabilities & syntax",
+            "summary": "This course covers the following:",
+            "bulletPoints": [
+                "Strings and Variables",
+                "Numbers and Math",
+                "Booleans and Conditionals",
+                "Functions",
+                "Lists",
+                "Dictionaries",
+                "Tuples",
+                "Files",
+                "Modules"
+            ]
+        }
+    ]
+}
