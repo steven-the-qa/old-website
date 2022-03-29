@@ -75,7 +75,6 @@ h1, h3 {
 
   /* SOCIAL MEDIA */
   --linkedin: url('images/socials/LinkedIn.svg');
-  --twitter: url('images/socials/Twitter.svg');
   --polywork: url('images/socials/polywork.webp');
 }
 
@@ -1020,12 +1019,6 @@ input {
 #linkedIn {
   background-image: var(--linkedin);
   border-radius: .5rem;
-}
-
-#twitter {
-  background-image: var(--twitter);
-  background-repeat: round;
-  border-radius: 2rem;
 }
 
 #polywork {
