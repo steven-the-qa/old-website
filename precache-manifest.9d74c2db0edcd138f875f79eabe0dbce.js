@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8a4e44b5cc46089292c510bca6fa555",
+    "revision": "797346b6f87782d9a3d083bab307039f",
     "url": "/index.html"
   },
   {
-    "revision": "fc227c56b0448cfc1b19",
-    "url": "/static/css/main.208cbe7f.chunk.css"
+    "revision": "ca5367bd6b5ab9cfb896",
+    "url": "/static/css/main.6940c55c.chunk.css"
   },
   {
     "revision": "1301c68a730470e55db8",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.62e70082.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc227c56b0448cfc1b19",
-    "url": "/static/js/main.4a8cd48c.chunk.js"
+    "revision": "ca5367bd6b5ab9cfb896",
+    "url": "/static/js/main.104cc596.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eeb38c5492423afc2b7315e30c8273fd",
     "url": "/static/media/Resume - September 2021.eeb38c54.pdf"
-  },
-  {
-    "revision": "2d8eb5e342327bf974b8d519780eb0b2",
-    "url": "/static/media/Twitter.2d8eb5e3.svg"
   },
   {
     "revision": "63409b9ddd8d936f14bb23b8934f3626",
