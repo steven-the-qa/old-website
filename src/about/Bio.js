@@ -26,8 +26,8 @@ export default function Bio() {
                 <p>
                     The first 2 years of our relationship, I was learning the basics of programming and front-end web development, from HTML and CSS to React and even some Node, just to explore 
                     the back end. Eventually I was able to land a job at the company I'm at now, Fetch Rewards, on their Support team, answering users. My manager at the time recommended Sam apply too, 
-                    and she joined me 3 weeks later doing the same thing. Fast-forward 2 years and we've both left the Support team for other opportunities at the company, and we both work remotely. She's a supervisor 
-                    championing employee engagement, while I'm an SDET under mentorship to be a Front-End Engineer, Apprentice.
+                    and she joined me 3 weeks later doing the same thing. Fast-forward 2 years and we've both left the Support team for other remote work opportunities.
+                    Currently, I'm at the same company undertaking a Front-End Engineer Apprenticeship with the goal of matriculating to a full-time role!
                 </p>
                 <p>
                     We both used to be in the service industry before tech, working retail, food service, tellering, among other things. We've come to find out that working in tech comes with amazing opportunities, not just for 
