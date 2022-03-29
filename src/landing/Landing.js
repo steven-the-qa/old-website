@@ -11,21 +11,20 @@ export default function Landing() {
         confetti.render();
        
         return () => confetti.clear();
-      }, [])
+    }, [])
 
     return (
         <Link to='/about' className='Landing'>
             <Helmet>
                 <title>Welcome! | Steven Boutcher</title>
             </Helmet>
-                <canvas id="my-canvas"></canvas>
-                <div className='landingText'>
-                    <h1>Hi, I'm Steven!</h1>
-                    <h2>Welcome to my website.</h2>
-                    <br />
-                    <h3>Click anywhere to continue...</h3>
-                </div>
-
+            <canvas id='my-canvas'></canvas>
+            <div className='landingText'>
+                <h1>Hi, I'm Steven!</h1>
+                <h2>Welcome to my website.</h2>
+                <br />
+                <h3>Click anywhere to continue...</h3>
+            </div>
         </Link>
     );
 }
