@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "912bc86c5760370b356665269997f0d8",
+    "revision": "b21810233bf67726133251b651df3fa1",
     "url": "/index.html"
   },
   {
-    "revision": "32ab34594a71747538c4",
-    "url": "/static/css/main.6940c55c.chunk.css"
+    "revision": "872ea9bd00c00a74c868",
+    "url": "/static/css/main.2784606d.chunk.css"
   },
   {
-    "revision": "1301c68a730470e55db8",
-    "url": "/static/js/2.62e70082.chunk.js"
+    "revision": "8bea8172dd555c084804",
+    "url": "/static/js/2.c671518f.chunk.js"
   },
   {
     "revision": "f9149ae0f0977793c838a92fcf8ae78b",
-    "url": "/static/js/2.62e70082.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.c671518f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32ab34594a71747538c4",
-    "url": "/static/js/main.ce9d8a34.chunk.js"
+    "revision": "872ea9bd00c00a74c868",
+    "url": "/static/js/main.1ea01767.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -89,7 +89,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "906484904602f7af19e9c22bab454f1e",
-    "url": "/static/media/medicareMore.90648490.JPG"
+    "url": "/static/media/medicaremore.90648490.JPG"
   },
   {
     "revision": "332f7bab6a9df12a2d179455d7af6775",
@@ -145,11 +145,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "7db5a33f68b431ddf44a0cf5dd3e6424",
-    "url": "/static/media/rubyCalculator.7db5a33f.jpeg"
+    "url": "/static/media/rubycalculator.7db5a33f.jpeg"
   },
   {
     "revision": "cc97cfe139145893b31534f483dfe19a",
     "url": "/static/media/rwd_bootcamp.cc97cfe1.png"
+  },
+  {
+    "revision": "f42622cf179b7056fdbc032d5c5b0829",
+    "url": "/static/media/scrimbasetstate.f42622cf.png"
   },
   {
     "revision": "8a74da32221a09fc495168d9e6441299",
@@ -157,7 +161,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "16984afb32544b46ca2c60dd738e0f0f",
-    "url": "/static/media/setStateArticle.16984afb.JPG"
+    "url": "/static/media/setstatearticle.16984afb.JPG"
+  },
+  {
+    "revision": "53f13e0a8c8ea7a7cde3b0915daf1f68",
+    "url": "/static/media/sitefigma.53f13e0a.png"
   },
   {
     "revision": "d4af8bcfe941da5360af314f9c12579c",
