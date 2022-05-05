@@ -19,6 +19,7 @@ export default function SideProject(props) {
         )
     })
 
+    const repoSite = projectData[props.projectId].repo && <a className='btn-viewProj' href={projectData[props.projectId].repo} target="_blank" rel="noopener noreferrer">View Repo</a>
     const liveSite = projectData[props.projectId].live && <a className='btn-viewProj' href={projectData[props.projectId].live} target="_blank" rel="noopener noreferrer">View Live</a>
     
     const ReverseSide = () => {
@@ -29,7 +30,7 @@ export default function SideProject(props) {
                 <p>{projectData[props.projectId].description}</p>
                 <strong>Features:</strong>
                 <ul>{features}</ul>
-                <a className='btn-viewProj' href={projectData[props.projectId].repo} target="_blank" rel="noopener noreferrer">View Repo</a>
+                {repoSite}
                 {liveSite}
             </div>
         )

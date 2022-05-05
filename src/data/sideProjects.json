@@ -1,6 +1,32 @@
 {
-    "medicareandmore": {
-        "id": "medicareandmore",
+    "sitefigma": {
+        "id": "sitefigma",
+        "title": "Personal Website Figma",
+        "description": "In an effort to develop websites more thoughtfully, I used this iteration of my personal website as an opportunity to create a design before writing the first line of code. Prior to trying this, my designs would emerge from the coding process, but I've found this approach helps me feel more satisfied with the end product.",
+        "features": [
+            "Browser tab icon design",
+            "About page design",
+            "Projects page design",
+            "Contact page design",
+            "Mobile and desktop designs"
+        ],
+        "repo": "",
+        "live": "https://www.figma.com/file/eyIilNnwtvBHhJTlNJ6eXV/Portfolio-Site?node-id=0%3A1"
+    },
+    "scrimbasetstate": {
+        "id": "scrimbasetstate",
+        "title": "React setState Scrimba tutorial",
+        "description": "This is a tutorial I created as a sample of my instructional style when I was planning to create a Scrimba course.",
+        "features": [
+            "Explanation of how state change works in React",
+            "Example of changing state in a React app",
+            "Ability to interact with the code, per Scrimba's platform capabilities"
+        ],
+        "repo": "",
+        "live": "https://scrimba.com/scrim/co30d47859f0c777551b06af1"
+    },
+    "medicaremore": {
+        "id": "medicaremore",
         "title": "Medicare & More Insurance Agency",
         "description": "Built this website from scratch using React to replace my mom's VistaPrint website, which was costing her $35/month. (Currently, this website is not being used because she has moved on from the business, so it is hosted at a free GitHub Pages domain for use in this portfolio.)",
         "features": [

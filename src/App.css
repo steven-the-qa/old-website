@@ -66,12 +66,14 @@ h1, h3 {
   --freecodecamp: url('images/socials/freeCodeCamp.svg');
 
   /* PUBLICATIONS */
-  --setstate: url('images/sideprojects/setStateArticle.JPG');
+  --setstate: url('images/sideprojects/setstatearticle.JPG');
 
   /* SIDE PROJECTS */
-  --medicareandmore: url('images/sideprojects/medicareMore.JPG');
-  --rubycalculator: url('images/sideprojects/rubyCalculator.jpeg');
+  --medicaremore: url('images/sideprojects/medicaremore.JPG');
+  --rubycalculator: url('images/sideprojects/rubycalculator.jpeg');
   --birthdayhelper: url('images/sideprojects/birthdayhelper.png');
+  --sitefigma: url('images/sideprojects/sitefigma.png');
+  --scrimbasetstate: url('images/sideprojects/scrimbasetstate.png');
 
   /* SOCIAL MEDIA */
   --linkedin: url('images/socials/LinkedIn.svg');
@@ -704,6 +706,7 @@ h1, h3 {
   width: 100%;
   padding: 2em 0;
   background-color: var(--darkgray);
+  height: 100%;
 }
 
 .sideProjects-title {
@@ -756,8 +759,8 @@ h1, h3 {
   transform: scale(1.01);
 }
 
-#medicareandmore {
-  background-image: var(--medicareandmore), linear-gradient(-45deg, black, white);
+#medicaremore {
+  background-image: var(--medicaremore), linear-gradient(-45deg, black, white);
   background-color: var(--blue);
   background-blend-mode: multiply;
   background-position: center;
