@@ -22,6 +22,7 @@ export default function Hobbies() {
             <div id="languages" className="hobby-pic" onClick={showText} alt="languages" />
             <div id="travel" className="hobby-pic" onClick={showText} alt="travel" />
             <div id="violin" className="hobby-pic" onClick={showText} alt="violin" />
+            <div id="webdev" className="hobby-pic" onClick={showText} alt="webdev" />
         </div>
     )
 }

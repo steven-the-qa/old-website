@@ -60,6 +60,7 @@ h1, h3 {
   --languages: url('images/hobbies/languages.svg');
   --travel: url('images/hobbies/travel.svg');
   --violin: url('images/hobbies/violin.svg');
+  --webdev: url('images/hobbies/webdev.svg');
 
   /* PUBLIC PROFILES */
   --github: url('images/socials/GitHub.svg');
@@ -283,6 +284,10 @@ h1, h3 {
 
 #violin {
   background-image: var(--violin);
+}
+
+#webdev {
+  background-image: var(--webdev);
 }
 
 @media (min-width: 800px) {
